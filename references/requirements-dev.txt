@@ -1,0 +1,20 @@
+# Stealth Scraper — 开发依赖
+# 安装: pip install -r requirements-dev.txt
+
+# 代码质量
+black>=24.0.0
+isort>=5.13.0
+flake8>=7.0.0
+mypy>=1.8.0
+pre-commit>=3.6.0
+
+# 测试
+pytest>=8.0.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+responses>=0.25.0       # HTTP mock for tests
+
+# 类型检查
+types-requests>=2.31.0
+types-beautifulsoup4>=4.12.0
+types-tqdm>=4.66.0
